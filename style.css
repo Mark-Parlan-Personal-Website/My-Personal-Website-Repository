@@ -1,0 +1,99 @@
+.links{
+    float:right;
+    font-size: 20px;
+    word-spacing: 10px;
+    margin: 25px 50px 10px 300px; 
+}
+
+.myName{
+    font-size: 50px;
+}
+
+.topDivider{
+    border: solid 8px rgb(90, 85, 85);
+}
+
+.headerAndLinks{
+    margin: 30px 1px 1px 1px;    
+}
+
+.homePage{
+    background-image: url('compass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.aboutPage{
+    background-image: url('openField3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.portfolioPage{
+    background-image: url('code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.homeBodyHeader{
+    width: auto;
+    height: 100px;
+}
+
+.meToday{
+    text-align: center;
+    font-size: 40px;
+}
+
+.myQuote{
+    text-align: center;
+    /* background-color: azure; */
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: fit-content;
+    word-spacing: 10px;
+}
+
+#bAndC{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 150px;
+    /* background-size: 20%;
+    background: url(makerspace.jpg); */
+}
+
+#hAndF{
+
+}
+
+#garden{
+
+}
+
+#projectOne{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 150px;
+    margin-left: 500px;
+}
+
+#projectTwo{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 150px;
+    margin-left: 500px;
+}
+
+#projectThree{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 150px;
+    margin-left: 500px;
+}

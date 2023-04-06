@@ -21,17 +21,17 @@
 }
 
 .homePage{
-    background-image: url('compass.jpg');
+    background-image: url('../My-Personal-Website-Repository/Images/compass.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
 .aboutPage{
-    background-image: url('openField3.jpg');
+    background-image: url('../My-Personal-Website-Repository/Images/openField3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
 .portfolioPage{
-    background-image: url('code.jpg');
+    background-image: url('../My-Personal-Website-Repository/Images/code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -81,7 +81,7 @@
 }
 
 .bAndCI{
-    margin: 10px 30px 10px 75px;
+    margin: 10px 30px 10px 100px;
     border-radius: 10px;
     border: 5px solid #73AD21;
     height: 190px;

@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 .links{
     float:right;
     font-size: 20px;
@@ -53,22 +56,107 @@
     word-spacing: 10px;
 }
 
+.aboutAOne{
+    display: flex;
+}
+
+.aboutATwo{
+    display: flex;
+}
+
+.aboutAThree{
+    display: flex;
+}
+
 #bAndC{
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px; 
     width: 900px;
-    height: 150px;
-    /* background-size: 20%;
-    background: url(makerspace.jpg); */
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* color: chartreuse; */
+    float: left;
+}
+
+.bAndCI{
+    margin: 10px 30px 10px 75px;
+    border-radius: 10px;
+    border: 5px solid #73AD21;
+    height: 190px;
+    width: 330px;
+    float:right;
+}
+
+.hAndFI{
+    margin: 10px 30px 10px 100px;
+    border-radius: 10px;
+    border: 5px solid #73AD21;
+    height: 190px;
+    width: 330px;
+    float:right;
 }
 
 #hAndF{
-
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* color: chartreuse; */
+    float: left;
 }
 
-#garden{
+.garden{
+    margin: 10px 30px 10px 100px;
+    border-radius: 10px;
+    border: 5px solid #73AD21;
+    height: 190px;
+    width: 330px;
+    float:right;
+}
 
+#gardening{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 190px;
+    margin-top: 10px;
+    margin-left: 50px;
+    /* color: chartreuse; */
+    float: left;
+}
+
+.mountains{
+    float:left;
+    margin: 10px 30px 10px 130px;
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    height: 190px;
+    width: 330px;
+}
+
+
+.forest{
+    float:left;
+    margin: 10px 30px 10px 130px;
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    height: 190px;
+    width: 330px;
+}
+
+.lake{
+    float:left;
+    margin: 10px 30px 10px 130px;
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    height: 190px;
+    width: 330px;
 }
 
 #projectOne{
@@ -76,8 +164,25 @@
     border: 2px solid #73AD21;
     padding: 20px; 
     width: 900px;
-    height: 150px;
-    margin-left: 500px;
+    height: 190px;
+    margin-top: 10px;
+    color: chartreuse;
+}
+
+
+/* This is a working code that scales up by 1.1. used for IE9 and safari */
+
+/* #projectOne:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+} */
+
+
+#projectOneLine{
+    display: flex;
+    transition: transform .2s;
+    
 }
 
 #projectTwo{
@@ -85,15 +190,27 @@
     border: 2px solid #73AD21;
     padding: 20px; 
     width: 900px;
-    height: 150px;
-    margin-left: 500px;
+    height: 190px;
+    margin-top: 10px;
+    color: chartreuse;
+}
+
+#projectTwoLine{
+    display: flex;
+    transition: transform .2s;
 }
 
 #projectThree{
+    color: chartreuse;
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px; 
     width: 900px;
-    height: 150px;
-    margin-left: 500px;
+    height: 190px;
+    margin-top: 10px;
+}
+
+#projectThreeLine{
+    display: flex;
+    transition: transform .2s;
 }

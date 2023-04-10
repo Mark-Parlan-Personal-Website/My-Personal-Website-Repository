@@ -67,6 +67,9 @@
 .aboutAThree{
     display: flex;
 }
+.contactPage{
+    background-color:deepskyblue;
+}
 
 #bAndC{
     border-radius: 25px;
@@ -214,3 +217,113 @@
     display: flex;
     transition: transform .2s;
 }
+
+.contactForm{
+    color: black;
+    background-color: beige;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 900px;
+    height: 600px;
+    margin: 10px 200px 10px 300px;
+    
+}
+
+input[type=text] select {
+    width: 40%;
+    padding: 5px 5px;
+    margin: 1px 0;
+    /* display:flex; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+    .form{
+        display:flex;
+        
+    }
+
+  input{
+    font-size: 18px;
+  }
+  label{
+    font-size: 18px;
+  }
+
+  .fn{
+    float:left;
+    width: 50%;
+  }
+  .mn{
+    float: right;
+    width: 50%;
+  } 
+  .ln{
+    float:left;
+    width: 50%;
+  }
+  .pn{
+    float:right;
+    width: 50%;
+  }
+  .un{
+    float:left;
+    width: 50%;
+  }
+  .pw{
+    float:right;
+    width: 50%;
+  }
+
+  .em{
+    float:left;
+    width:100%
+  }
+    .db{
+    float:left;
+    width: 50%;
+    height: 70px;
+    }
+
+    .sex{
+        float:right;
+        width: 50%;
+        height: 70px;
+    }
+
+    .kl{
+        width:100%;
+
+    }
+
+    .hc{
+        float:left;
+        width:50%;
+    }
+    .js{
+        float:right;
+        width:50%;
+    }
+    .py{
+        float:left;
+        width:50%;
+    }
+    .ccc{
+        float:right;
+        width:50%;
+    }
+    .cplus{
+        float:left;
+        width:50%;
+        }
+
+    .oc{
+        float:right;
+        width:50%;
+    }
+    .ulp{
+        margin-top:15px;
+    }
